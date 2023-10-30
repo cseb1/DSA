@@ -1,11 +1,11 @@
-package BinarySearch;
+package Searching.BinarySearch;
 class Solution{
      public  int search(int[] nums, int target) {
         int lb=0;
         int up=nums.length-1;
         while(lb<=up)
         {
-            int mid=(lb+up)/2;
+            int mid=lb+(up-lb)/2;
 
             if(nums[mid]==target)
             {

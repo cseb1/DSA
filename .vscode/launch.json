@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SwapNodeValue",
+            "request": "launch",
+            "mainClass": "LeetcodeProblem.MediumType.SwapNodeValue",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "DesignLinkedList",
+            "request": "launch",
+            "mainClass": "LeetcodeProblem.MediumType.DesignLinkedList",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "BrowserHistory",
+            "request": "launch",
+            "mainClass": "LeetcodeProblem.MediumType.BrowserHistory",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "Tester",
+            "request": "launch",
+            "mainClass": "LeetcodeProblem.EasyType.Tester",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "InterviewTester",
+            "request": "launch",
+            "mainClass": "InterviewTester",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CLLTester",
+            "request": "launch",
+            "mainClass": "CLLTester",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "DLLTester",
+            "request": "launch",
+            "mainClass": "DLLTester",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "SLLTester",
+            "request": "launch",
+            "mainClass": "SLLTester",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        }
+    ]
+}
