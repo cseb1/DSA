@@ -9,8 +9,7 @@ package LeetcodeProblem.MediumType;
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
 
- class Solution{
-        
+class Solution{
  public ListNode swapNodes(ListNode head, int k) {
         ListNode curr=head;
         ListNode left=head;
