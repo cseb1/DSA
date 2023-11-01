@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InnerClasses",
+            "request": "launch",
+            "mainClass": "staticExample.InnerClasses",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "StaticBlock",
+            "request": "launch",
+            "mainClass": "staticExample.StaticBlock",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "staticExample.Main",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "Greeting",
+            "request": "launch",
+            "mainClass": "Packages.a.Greeting",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
             "name": "SwapNodeValue",
             "request": "launch",
             "mainClass": "LeetcodeProblem.MediumType.SwapNodeValue",
