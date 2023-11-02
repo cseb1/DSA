@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ObjectPrint",
+            "request": "launch",
+            "mainClass": "properties.polyMorphism.ObjectPrint",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "properties.polyMorphism.Main",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "Subclass",
+            "request": "launch",
+            "mainClass": "access.Subclass",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
+            "name": "NotSubClass",
+            "request": "launch",
+            "mainClass": "singleton.NotSubClass",
+            "projectName": "DSA-Bootcamp-java_71b3f669"
+        },
+        {
+            "type": "java",
             "name": "InnerClasses",
             "request": "launch",
             "mainClass": "staticExample.InnerClasses",
