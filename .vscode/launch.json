@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "inteface.extendDemo2.Main",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "inteface.nested.Main",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "inteface.Main",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "abstractDemo.Main",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
             "name": "ObjectPrint",
             "request": "launch",
             "mainClass": "properties.polyMorphism.ObjectPrint",
