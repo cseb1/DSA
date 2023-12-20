@@ -7,6 +7,7 @@ public class Main {
         try {
             // divide(a, b);
             // mimicing
+            System.out.println(a / b);
             String name = "Kunal";
             if (name.equals("Kunal")) {
                 throw new MyException("name is kunal");

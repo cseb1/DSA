@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidParenthesis",
+            "request": "launch",
+            "mainClass": "leetCodeProblem.ValidParenthesis",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "ParenthesisChecking",
+            "request": "launch",
+            "mainClass": "leetCodeProblem.ParenthesisChecking",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "LargestHeight",
+            "request": "launch",
+            "mainClass": "leetCodeProblem.LargestHeight",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "GamesOfTwoStacks",
+            "request": "launch",
+            "mainClass": "leetCodeProblem.GamesOfTwoStacks",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "leetCodeProblem.Main",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "CircularQueueMain",
+            "request": "launch",
+            "mainClass": "CircularQueueMain",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "QueueMain",
+            "request": "launch",
+            "mainClass": "QueueMain",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "StackMain",
+            "request": "launch",
+            "mainClass": "StackMain",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "inteface.extendDemo2.Main",
