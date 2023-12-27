@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
             "name": "ValidParenthesis",
             "request": "launch",
             "mainClass": "leetCodeProblem.ValidParenthesis",
