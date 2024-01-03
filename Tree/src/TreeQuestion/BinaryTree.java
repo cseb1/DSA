@@ -1,17 +1,21 @@
+package TreeQuestion;
+
+import java.util.List;
 import java.util.Scanner;
 
 public class BinaryTree {
-    private static class Node {
+    public static class Node {
         Node left;
         Node right;
         int value;
+        Node next;
 
         public Node(int value) {
             this.value = value;
         }
     }
 
-    private Node root;
+    public Node root;
 
     public void populate(Scanner scanner) {
         System.out.println("Enter the root nodes");
@@ -105,5 +109,21 @@ public class BinaryTree {
         postOrder(node.left);
         postOrder(node.right);
         System.out.print("PostOrder Traversal->" + node.value + " ");
+    }
+
+    public List<List<Integer>> levelWise() {
+        return null;
+    }
+
+    public List<Double> LevelWiseAverage() {
+        return null;
+    }
+
+    public Node levelOrderSuccessor(int key) {
+        return null;
+    }
+
+    public List<List<Integer>> zigzag_Order() {
+        return null;
     }
 }

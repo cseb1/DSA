@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RandomString",
+            "request": "launch",
+            "mainClass": "RandomString",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "String_Buffer",
+            "request": "launch",
+            "mainClass": "String_Buffer",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "SegmentTreeMain",
+            "request": "launch",
+            "mainClass": "SegmentTreeMain",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
+            "name": "AVLMain",
+            "request": "launch",
+            "mainClass": "AVLMain",
+            "projectName": "DSA-Bootcamp-java_655072e8"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",

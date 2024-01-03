@@ -1,3 +1,5 @@
+package AllTreeCode;
+
 class BinarySearchTree {
     public class Node {
         private int val;
@@ -21,10 +23,16 @@ class BinarySearchTree {
 
     }
 
-    public int height(Node node) { // calculate height of the tree
+    public int height() {
+        return height(root);
+    }
 
-        if (node == null)
-            return 0;
+    private int height(Node node) { // calculate height of the tree
+
+        if (node == null) {
+            return -1;
+        }
+
         return node.height;
     }
 
@@ -47,7 +55,7 @@ class BinarySearchTree {
         if (val > node.val) {
             node.right = insert(node.right, val);
         }
-        node.height = 1 + Math.max(height(node.left), height(node.right));
+        node.height = Math.max(height(node.left), height(node.right)) + 1;
         return node;
     }
 
