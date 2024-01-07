@@ -1,11 +1,11 @@
 package AllTreeCode;
 
-class BinarySearchTree {
+public class BinarySearchTree {
     public class Node {
-        private int val;
-        private Node left;
-        private Node right;
-        private int height;
+        public int val;
+        public Node left;
+        public Node right;
+        public int height;
 
         public Node(int val) {
             this.val = val;
@@ -17,7 +17,7 @@ class BinarySearchTree {
         }
     }
 
-    private Node root;
+    public Node root;
 
     public BinarySearchTree() {
 

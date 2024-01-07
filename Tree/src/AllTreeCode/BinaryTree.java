@@ -3,17 +3,17 @@ package AllTreeCode;
 import java.util.Scanner;
 
 public class BinaryTree {
-    private static class Node {
-        Node left;
-        Node right;
-        int value;
+    public class Node {
+        public Node left;
+        public Node right;
+        public int value;
 
         public Node(int value) {
             this.value = value;
         }
     }
 
-    private Node root;
+    public Node root;
 
     public void populate(Scanner scanner) {
         System.out.println("Enter the root nodes");

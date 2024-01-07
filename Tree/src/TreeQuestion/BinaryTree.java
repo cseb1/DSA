@@ -4,11 +4,15 @@ import java.util.List;
 import java.util.Scanner;
 
 public class BinaryTree {
-    public static class Node {
-        Node left;
-        Node right;
-        int value;
-        Node next;
+    public class Node {
+        public Node left;
+        public Node right;
+        public int value;
+        public Node next;
+
+        public int getValue() {
+            return this.value;
+        }
 
         public Node(int value) {
             this.value = value;
