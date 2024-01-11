@@ -97,6 +97,7 @@ class DFS extends BinaryTree {
         }
     }
 
+    // https://leetcode.com/problems/validate-binary-search-tree/submissions/1141372458/
     public boolean isValidBST(Node root) {
         return helper(root, null, null);
     }
