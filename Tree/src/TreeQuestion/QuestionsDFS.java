@@ -1,6 +1,7 @@
 package TreeQuestion;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 import AllTreeCode.BinarySearchTree;
 
@@ -157,5 +158,62 @@ class DFS extends BinaryTree {
         node.right = biuldTree(Arrays.copyOfRange(preOrder, index + 1, preOrder.length),
                 Arrays.copyOfRange(inOrder, index + 1, inOrder.length));
         return node;
+    }
+
+    public Node inPre(int[] preOrder, int[] inOrder) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < inOrder.length; i++) {
+            map.put(inOrder[i], i);
+        }
+
+        int[] index = { 0 };
+
+        return helper(preOrder, inOrder, 0, preOrder.length - 1, map, index);
+    }
+
+    public Node helper(int[] preOrder, int[] inOrder, int left, int right, HashMap<Integer, Integer> map, int[] index) {
+        if (left > right) {
+            return null;
+        }
+
+        int current = preOrder[index[0]];
+        index[0]++;
+
+        Node node = new Node(current);
+
+        if (left == right) {
+            return node;
+        }
+        int currentIndex = map.get(current);
+        node.left = helper(preOrder, inOrder, left, currentIndex - 1, map, index);
+        node.right = helper(preOrder, inOrder, currentIndex + 1, right, map, index);
+
+        return node;
+    }
+
+    public Node inPost(int[] postorder, int[] inorder) {
+        if (inorder == null || postorder == null || inorder.length != postorder.length)
+            return null;
+        HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+        for (int i = 0; i < inorder.length; ++i)
+            hm.put(inorder[i], i);
+        return buildTreePostIn(inorder, 0, inorder.length - 1, postorder, 0,
+                postorder.length - 1, hm);
+    }
+
+    private Node buildTreePostIn(int[] inorder, int is, int ie, int[] postorder,
+            int ps, int pe, HashMap<Integer, Integer> hm) {
+        if (ps > pe || is > ie)
+            return null;
+        Node root = new Node(postorder[pe]);
+        int ri = hm.get(postorder[pe]);
+        Node leftchild = buildTreePostIn(inorder, is, ri - 1, postorder, ps,
+                ps + ri - is - 1, hm);
+        Node rightchild = buildTreePostIn(inorder, ri + 1, ie, postorder,
+                ps + ri - is, pe - 1, hm);
+        root.left = leftchild;
+        root.right = rightchild;
+        return root;
     }
 }

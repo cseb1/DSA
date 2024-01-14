@@ -3,7 +3,7 @@ package TreeQuestion;
 //import java.util.Arrays;
 //import java.util.Scanner;
 
-//import TreeQuestion.BinaryTree.Node;
+import TreeQuestion.BinaryTree.Node;
 //import AllTreeCode.BinarySearchTree;
 
 public class Main {
@@ -81,6 +81,11 @@ public class Main {
 
         // Node t = tree.biuldTree(new int[] { 3, 9, 20, 15, 7 }, new int[] { 9, 3, 15,
         // 20, 7 });
+
+        DFS tree = new DFS();
+        Node t = tree.inPost(new int[] { 8, 9, 4, 5, 2, 6, 7, 3, 1 }, new int[] { 8, 4, 9, 2, 5, 1, 6, 3, 7 });
+        System.out.println("Tree root element is" + t.value);
+        System.out.println(t.left.right.value);
 
     }
 }
