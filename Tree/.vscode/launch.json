@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AVLMain",
+            "request": "launch",
+            "mainClass": "AllTreeCode.AVLMain",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "AllTreeCode.Main",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "SegmentTreeMain",
+            "request": "launch",
+            "mainClass": "AllTreeCode.SegmentTreeMain",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeCandies",
+            "request": "launch",
+            "mainClass": "LeetCodeProblem.BinaryTreeCandies",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "BoundaryTraversal",
+            "request": "launch",
+            "mainClass": "LeetCodeProblem.BoundaryTraversal",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "BurnATree",
+            "request": "launch",
+            "mainClass": "LeetCodeProblem.BurnATree",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "LeetCodeProblem.Main",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "TripletsInBT",
+            "request": "launch",
+            "mainClass": "LeetCodeProblem.TripletsInBT",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "recover",
+            "request": "launch",
+            "mainClass": "LeetCodeProblem.recover",
+            "projectName": "Tree_83c95685"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "TreeQuestion.Main",
+            "projectName": "Tree_83c95685"
+        }
+    ]
+}

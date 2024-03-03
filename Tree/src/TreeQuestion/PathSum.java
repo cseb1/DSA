@@ -1,5 +1,8 @@
 package TreeQuestion;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PathSum extends BinaryTree {
     // [Path Sum](https://leetcode.com/problems/path-sum/) `leetcode`
     public boolean hasPathSum(Node root, int sum) {
@@ -10,6 +13,35 @@ public class PathSum extends BinaryTree {
             return sum == root.value;
         }
         return hasPathSum(root.left, sum - root.value) || hasPathSum(root.right, sum - root.value);
+    }
+
+    List<List<Integer>> list = new ArrayList<>();
+
+    public List<List<Integer>> pathsumII(Node root, int targetSum) {
+
+        pathSumII(root, targetSum, new ArrayList<>());
+        return list;
+    }
+
+    private void pathSumII(Node root, int targetSum, List<Integer> curr) {
+
+        if (root == null) {
+            return;
+        }
+
+        curr.add(root.value);
+        if (root.left == null && root.right == null) {
+            int sum = 0;
+            for (int i : curr) {
+                sum += i;
+            }
+            if (sum == targetSum) {
+                list.add(curr);
+            }
+        }
+
+        pathSumII(root.left, targetSum, curr);
+        pathSumII(root.right, targetSum, curr);
     }
 
     public int sumOfPath(Node root) {

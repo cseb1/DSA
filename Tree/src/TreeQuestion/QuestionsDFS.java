@@ -80,7 +80,7 @@ public class QuestionsDFS extends BinarySearchTree {
 }
 
 class DFS extends BinaryTree {
-
+    // https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
     public void flatten(Node root) {
         Node current = root;
         while (current != null) {
