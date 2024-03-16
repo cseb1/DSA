@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlienDictonary",
+            "request": "launch",
+            "mainClass": "LeetcodeProblem.AlienDictonary",
+            "projectName": "DSA_aff12070"
+        },
+        {
+            "type": "java",
             "name": "RandomString",
             "request": "launch",
             "mainClass": "RandomString",
