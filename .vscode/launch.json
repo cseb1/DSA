@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NoOfProvinces",
+            "request": "launch",
+            "mainClass": "GFGProblem.NoOfProvinces",
+            "projectName": "DSA_aff12070"
+        },
+        {
+            "type": "java",
             "name": "AlienDictonary",
             "request": "launch",
             "mainClass": "LeetcodeProblem.AlienDictonary",
